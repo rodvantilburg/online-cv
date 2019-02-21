@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Rodney VanTilburg
     tagline: Senior Software Analyst
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: #profile.png  place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: rvantilburg@woh.rr.com
@@ -47,84 +47,63 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      Versatile application developer with deep and diverse expertise across 
+      the software development life cycle (SDLC). Relentless problem solver who 
+      learns and deploys quickly to innovate and optimize business processes. 
+      Meticulous analyst known for corralling complex data and transforming it 
+      into actionable insights.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: BS in Mathematics
+      university: University of Dayton
+      time: 1983 - 1988
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Systems Analyst
+      time: 2002 - 2018
+      company: Teradata
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Deployed across the enterprise to effect major system upgrades, migrations, 
+        integrations, improvements, and bug fixes for corporate and customer-facing 
+        systems. Delivered solutions to address system diagnostics, issue detection, 
+        disaster recovery, connected devices, networking, server installation and 
+        maintenance, server resource allocation, database administration, and testing. 
 
-          - Bullet point
-          - Bullet point
+          - Product manager for mission-critial application that retrieved, sorted, 
+          and processed 100,000+ XML files daily from 2,300 customer sites as part of 
+          an automated customer support system.  Responsible for all development and 
+          maintenance of application across multiple Windows and Linux servers.
+          - Devised innovative data monitoring process creating what became the principal
+          early warning system for network, server, application, and database issues.
+          - Responsible for setup and configuration of Linux portals running SSH Tectia 
+          Server to ensure secure data connections from customer sites to Teradata.
+          - Reduced configuration problem incident creation time from 26 to seven minutes 
+          for thousands of customer sites, eliminating backlogs for critical issues by 
+          re-engineering incident-creation algorithms to more effectively triage bundles.
+          - Automated migration of over 1,000 customer sites to new IP addresses after 
+          Teradata company spin-off, creating a seamless transition with minimal downtime.
+          - Developed multiple database User Defined Functions (UDF) to analyze CLOB fields.  
+          UDF's would validate, calculate checksum values, and output fielded tables after 
+          parsing the CLOB's.
+          - Product manager for automated Customer Support tool installed in over 500 customer 
+          sites. Application collected fault and configuration information and uploaded it 
+          back to Teradata.
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Consultant
+      time: 2006 - 2008
+      company: Evanhoe & Associates
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        Built integrated hardware-software solutions to optimize and automate operational 
+        processes in a client-facing role, specializing in systems combining handheld scanning 
+        devices with database applications.
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+          - Increased speed and accuracy of quality control process for a large payment processor 
+          by programming a customized, Wi-Fi-connected barcode scanning solution that enabled 
+          instant viewing, validation, and storage of data.
+          - Developed streamlined and integrated system to track movement of flight simulator 
+          parts for Wright-Patt AFB facility, incorporating handheld barcode scanners with 
+          data storage and syncing capabilities to address data security restrictions
 
 projects:
     title: Projects
@@ -153,26 +132,6 @@ projects:
       - title: Delta
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
